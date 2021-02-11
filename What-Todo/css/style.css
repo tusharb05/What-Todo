@@ -1,0 +1,54 @@
+body {
+    margin:0;
+    padding:0;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+header a {
+    margin-left: 5%;
+}
+header form {
+    margin-right: 5%;
+}
+.container {
+    width: 80%;
+    margin-top: 50px;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 1rem;
+}
+
+.input {
+    width: 50%;
+    display: inline;
+}
+
+.btn-add {
+    margin-bottom: 6px;
+}
+
+.tasks {
+    margin-top: 50px;
+}
+
+.taskList {
+    width: 80%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 770px) {
+    .container {
+        margin-top: 30px;
+        width: 95%;
+    }
+    .taskList, .tasks {
+        width: 100%;
+        margin-left: 0;
+    }
+    .input {
+        width: 100%
+    }
+    .btn-add {
+        margin-top: 5px;
+        margin-left: 25%;
+        width: 50%;
+    }
+}
